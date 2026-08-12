@@ -202,6 +202,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: blueviolet;
     padding: 20px;
 }
@@ -211,6 +212,7 @@ footer div div ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer div div ul li{
@@ -317,20 +319,9 @@ footer div h3{
         
     }
     .about > div,
-  .contenedor-imagen {
+  .contenedor-imagen img {
     width: 100% !important;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-  .servicios{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    flex-wrap: wrap;   
-}
-.servicios > div,
-  .contenedor-imagen {
-    width: 100% !important;
-    margin-bottom: 20px;
-  }
+  
 }
