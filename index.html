@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+    <h3 class="logo">Portfolio</h3>
+
+    <!-- Botón hamburguesa -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="abrir-menu">
+        ☰
+    </label>
+
+    <nav class="navbar">
+        <label for="menu-toggle" class="cerrar-menu">
+            ✕
+        </label>
+
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+            <h1>Axel Alva <br>Desarrollador web</h1>
+            <div>
+
+
+                <i class="devicon-github-original"></i>
+
+
+                <i class="devicon-linkedin-plain"></i>
+
+            </div>
+            <a href="">CONTACTAME</a>
+        </section>
+        <section class="about">
+            <div class="contenedor-imagen">
+                <img src="./img/about.png" alt="foto de perfil">
+            </div>
+            <div class="parrafo">
+                <h3>SOBRE MI:</h3>
+                <p>Soy Axel Alva, desarrollador web y estudiante de la Tecnicatura Superior en Desarrollo de Software en
+                    el IFTS N.º 29. Me apasiona la tecnología y el desarrollo de aplicaciones web, y constantemente
+                    busco aprender y mejorar mis habilidades.
+
+                    Durante mi formación académica y mediante diferentes cursos, he adquirido conocimientos en HTML,
+                    CSS, JavaScript, React, Node.js, Express, bases de datos SQL y MongoDB, además de herramientas como
+                    Git y GitHub. También tengo experiencia desarrollando proyectos personales y académicos, trabajando
+                    tanto en el frontend como en el backend.
+
+                    Me considero una persona responsable, curiosa y con muchas ganas de seguir creciendo
+                    profesionalmente. Disfruto enfrentar nuevos desafíos, resolver problemas y transformar ideas en
+                    proyectos funcionales.
+
+                    Actualmente continúo capacitándome mediante cursos y proyectos prácticos para ampliar mis
+                    conocimientos y prepararme para incorporarme al mundo laboral como desarrollador web, aportando mis
+                    habilidades y aprendiendo de cada nuevo desafío.</p>
+            </div>
+        </section>
+        <section class="habilidades">
+            <div>
+                <h2>TECNOLOGIAS:</h2>
+                <div class="contenedor-skills">
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="foto skill" />
+                    </div>
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="foto skill" />
+                    </div>
+                    <div>
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" alt="foto skill" />
+                    </div>
+                    <div>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="foto skill" />
+
+                    </div>
+                    <div>
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="foto skill" />
+
+                    </div>
+                    <div>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain.svg" alt="foto skill" />
+
+                    </div>
+
+                    <div>
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="foto skill" />
+
+                    </div>
+                    <div>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="foto skill" />
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="proyectos">
+            <div>
+                <h2>MIS PROYECTOS:</h2>
+
+                <div class="contenedor-proyectos">
+
+                    <div>
+                        <img src="./img/pizzaboy.png" alt="foto card">
+                        <h3>Pizzaboy</h3>
+                        <a href="https://axelalva2023.github.io/multipage-pizza-boy/" target="_blank">Ver</a>
+                    </div>
+                    <div>
+                        <img src="./img/señor-budin.png" alt="foto card">
+                        <h3>Señor Budin</h3>
+                        <a href="https://axelalva2023.github.io/lading-page-budin/" target="_blank">Ver</a>
+                    </div>
+                    <div>
+                        <img src="./img/bogui.png" alt="foto card">
+                        <h3>Bogui</h3>
+                        <a href="https://axelalva2023.github.io/ecommerce-vainilla/" target="_blank">Ver</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div>
+                <h2>CONTACTO:</h2>
+                <div class="formulario">
+                    <form action="">
+                        <h3>Complete el formulario:</h3>
+                        <label for="nombre">Ingrese su nombre:</label><input type="text" id="nombre" name="nombre" required>
+                        <label for="correo">Ingrese su email:</label><input type="email" name="correo" id="correo" required>
+                        <label for="mensaje">Ingrese su mensaje:</label><textarea name="mensaje" id="mensaje" required></textarea>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Portfolio</h3>
+            <div>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Sobre mi</a></li>
+                    <li><a href="">Habilidades</a></li>
+                    <li><a href="">Proyectos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
+            <p>&copy; Todos los derechos reservados 2026</p>
+        </div>
+    </footer>
+
+</body>
+
+</html> 
