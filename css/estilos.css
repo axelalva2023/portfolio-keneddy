@@ -156,6 +156,15 @@ header nav ul li a{
     border: 2px solid red;
     margin: 10px;
     height: 280px;
+     box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+  cursor: pointer;
+}
+
+.contenedor-proyectos div:hover {
+    transform: translateY(-10px);
 }
 
 .contenedor-proyectos div h3{
